@@ -85,6 +85,6 @@ with engine.connect() as connection:
 
 # 4) Use Pandas to read and display a table
 import pandas as pd
-df = pd.read_sql("SELECT * FROM COMPANY", engine)
-df
+df = pd.read_sql("SELECT * FROM publishers", engine)
+print(df)
 
